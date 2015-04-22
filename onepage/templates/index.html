@@ -465,7 +465,7 @@
 
 				<div class="col-sm-6 col-sm-offset-3">
 
-					<form id="contact-form" role="form">
+					<form id="contact-form" role="form" action="." method="post">{% csrf_token %}
 						<div class="ajax-hidden">
 							<div class="form-group wow fadeInUp">
 								<label class="sr-only" for="c_name">Name</label>

@@ -147,11 +147,17 @@
 			}
 
 			else {				
-				    $('#contact-form .ajax-hidden').fadeOut(500);
-				    response.html("Votre message a été envoyé. Vous serez contactez dans moins d'une heure.").fadeIn(500);
-				}
-            
-            	return false;
+                $.ajax({
+                    url:"/send-mail/",
+                    data : {name:c_name, mail:c_email, mess:c_message},
+                    success: function(response){
+                      console.log(response)
+                    }
+                })
+			    $('#contact-form .ajax-hidden').fadeOut(500);
+			    response.html("Votre message a été envoyé. Vous serez contactez dans moins d'une heure.").fadeIn(500);
+			}
+            return false;
 			});
 
 	});
