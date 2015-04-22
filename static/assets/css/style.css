@@ -144,7 +144,8 @@ h6 {
 .form-control {
 	background: #FFF;
 	border: 1px solid #D8E1E4;
-	font-size: 12px;
+	font-size: 13px;
+    color:black;
 	padding: 0 15px;
 }
 
