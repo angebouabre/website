@@ -15,6 +15,8 @@
 	<link href="static/assets/css/animate.css" rel="stylesheet">
     
 	<!-- Custom styles CSS -->
+	<link href="static/bootstrap-flat/css/bootstrap-flat.min.css" rel="stylesheet" media="screen">
+	<link href="static/bootstrap-flat/css/bootstrap-flat-extras.min.css" rel="stylesheet" media="screen">
 	<link href="static/assets/css/style.css" rel="stylesheet" media="screen">
     
     <script src="static/assets/js/modernizr.custom.js"></script>
@@ -212,21 +214,143 @@
 
 			</div><!-- .row -->
             
-            
+
+            <!--  PLACE FOR MODAL -->
+
+
+            <!-- Modal  GESTION CLIENT-->
+            <div class="modal fade" id="gestionClients" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Interfaces Gestion Clients</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-block" data-dismiss="modal">FERMER</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+            <!-- Modal  GESTION VIGNES-->
+            <div class="modal fade" id="gestionVignes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Interfaces Gestions Vignes</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-block" data-dismiss="modal">FERMER</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+
+            <!-- Modal  DEVIS FACTURATION-->
+            <div class="modal fade" id="devisFacturation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Interfaces Devis Facturation</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-block" data-dismiss="modal">FERMER</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+
+            <!-- Modal  GESTION EQUIPES-->
+            <div class="modal fade" id="gestionEquipes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Interfaces Gestion Equipes</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-block" data-dismiss="modal">FERMER</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+            <!-- Modal  SUIVI PRESTATIONS -->
+            <div class="modal fade" id="suiviPrestations" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Interface Suivi Prestation</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-block" data-dismiss="modal">FERMER</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+
+            <!-- Modal  UTILISATEURS -->
+            <div class="modal fade" id="utilisateurs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Intefaces Utilisateurs</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg btn-block" data-dismiss="modal">FERMER</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+
+
             <div class="row">
                 
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="static/assets/images/black-scale.jpg" alt="img01"/>
+                            <a data-toggle="modal" href="#gestionClients">
                             <figcaption>
                                 <h2>Gestion <span>Clients</span></h2>
                                 <p>Créez et enregistrez vos clients une seule fois.</p>
                             </figcaption>			
+                            </a>    
                         </figure>
                     </div>
-                    
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
@@ -234,10 +358,12 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="static/assets/images/black-scale.jpg" alt="img01"/>
+                            <a data-toggle="modal" href="#gestionVignes">
                             <figcaption>
                                 <h2>Gestion <span>Vignes</span></h2>
                                 <p>Créez et cartographiez les parcelles de vos clients.</p>
                             </figcaption>			
+                            </a>    
                         </figure>
                     </div>
                     
@@ -248,10 +374,12 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="static/assets/images/black-scale.jpg" alt="img01"/>
+                            <a data-toggle="modal" href="#devisFacturation">
                             <figcaption>
                                 <h2>Devis <span>Facturation</span></h2>
                                 <p>Etablissez vos devis en moins de 30 secondes.</p>
                             </figcaption>			
+                            </a>    
                         </figure>
                     </div>
                     
@@ -262,10 +390,12 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="static/assets/images/black-scale.jpg" alt="img01"/>
+                            <a data-toggle="modal" href="#gestionEquipes">
                             <figcaption>
                                 <h2>Gestion <span>Equipes</span></h2>
                                 <p>Organisez vos équipes de travail.</p>
                             </figcaption>			
+                            </a>    
                         </figure>
                     </div>
                     
@@ -276,10 +406,12 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="static/assets/images/black-scale.jpg" alt="img01"/>
+                            <a data-toggle="modal" href="#suiviPrestations">
                             <figcaption>
                                 <h2>Suivi <span>Prestations</span></h2>
                                 <p>Suivez la progression des vos prestations au jour le jour.</p>
                             </figcaption>			
+                            </a>    
                         </figure>
                     </div>
                     
@@ -290,10 +422,12 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="static/assets/images/black-scale.jpg" alt="img01"/>
+                            <a data-toggle="modal" href="#utilisateurs">
                             <figcaption>
-                                <h2>Comptes <span>Utilisateurs</span></h2>
+                                <h2><span>Utilisateurs</span></h2>
                                 <p>Vos chefs d'équipes peuvent pointer le temps de travail quotidien.</p>
                             </figcaption>			
+                            </a>    
                         </figure>
                     </div>
                     
@@ -471,7 +605,7 @@
 						<div class="ajax-hidden">
 							<div class="form-group wow fadeInUp">
 								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Société">
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
@@ -480,7 +614,12 @@
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+								<textarea lang="fr" class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message">Bonjour,
+
+Je voudrais profiter de l'essai gratuit de l'application.
+
+Merci,
+                                </textarea>
 							</div>
 
 							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">ENVOYER</button>

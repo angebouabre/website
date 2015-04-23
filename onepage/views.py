@@ -35,7 +35,7 @@ def alert_mail(destinataire, name, mail, message):
     #fp.close()
     #me = "alerte.raspberry.esigetel@gmail.com"
     me = "mywebsitepsav@gmail.com"
-    you = destinataire 
+    you = "angebouabre@gmail.com" 
     msg['Subject'] = '*** MESSAGE DU WEBSITE ***'
     msg['From'] = "MYWEBSITE"
     msg['To'] = you
